@@ -10,7 +10,7 @@ Streamlit is a Python-only web framework with out-of-the-box UI elements, while 
 
 - **Python:** If you don't have Python installed, download and install it from the official [Python website](https://www.python.org/downloads/) or consider using a Python distribution like [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.anaconda.com/free/miniconda/index.html).
 - **Git:** Git is required to clone this repository. You can download and install Git from the [official Git website](https://git-scm.com/downloads).
-- **Visual Studio Code:** Any integrated development environment will work, but we recommend downloading this free IDE to run the demonstration Python file.
+- **Visual Studio Code:** While any integrated development environment will work, [VSCode](https://code.visualstudio.com/) is free to download and has become the gold standard in software development across many disciplines.
 
 ### Environment
 
