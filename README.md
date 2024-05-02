@@ -16,5 +16,9 @@ Streamlit is a Python-only web framework with out-of-the-box UI elements, while 
 
 While not strictly necessary, we recommend creating a virtual environment to isolate the dependencies necessary to run this demo. Follow these steps to set up the Python environment for the presentation:
 
-1.
-2.
+1. Clone or download a zipped copy of the repository via the "Code" dropdown menu at the top of the repo. If cloning, you can use the following bash command in your terminal or command prompt: `git clone hthttps://github.com/arc-research-analytics/lunchAndlearn-05.13.24.git`
+2. Navigate to the repo directory with the following command: `cd lunchAndlearn-05.13.24`.
+3. Create a virtual environment. While you can use the built-in `venv` or lightweight module `virtualenv`, we recommend using conda environments. This requires installation of either the Anaconda or Miniconda distribution as linked above.
+
+- `conda create my_environment`
+- `conda activate my_environment`
