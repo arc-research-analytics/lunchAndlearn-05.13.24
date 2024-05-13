@@ -2,7 +2,7 @@
 
 ### Overview
 
-This repo contains the data and Python scripts to generate a web-based [Streamlit](https://streamlit.io/) web app to visualize home sale prices in Fulton County from 2018 to 2023. The Python scripts and CSVs used in the demonstration are in the "Primary" folder.
+Today's lunch & learn is a demonstration of a possible Python-based worflow from raw data to web application. This repo contains the data and Python scripts to generate a web-based [Streamlit](https://streamlit.io/) web app to visualize home sale prices in Fulton County from 2018 to 2023. The Python scripts and CSVs used in the demonstration are in the "Primary" folder.
 
 Streamlit is a Python-only web framework with out-of-the-box UI elements, while [Plotly/Mapbox](https://plotly.com/python/mapbox-county-choropleth/) will generate the choropleth map.
 

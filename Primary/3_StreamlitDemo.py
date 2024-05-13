@@ -41,16 +41,16 @@ basemap_select = st.sidebar.selectbox(
     placeholder='this is a test'
 )
 
-# Dictionary will 'translate' the selection
+# Dictionary will 'translate' the basemap selection to a CartoDB tile map
 basemap_dictionary = {
     'Light': 'positron',
     'Dark': 'darkmatter'
 }
 
-# define app header
-st.header('Fulton County Home Sale Prices')
-st.subheader(
-    f'Median Price / SF by Census Tract: {years[0]} - {years[1]}', divider='blue')
+# # define app header, subheader
+# st.header('Fulton County Home Sale Prices')
+# st.subheader(
+#     f'Median Price / SF by Census Tract: {years[0]} - {years[1]}', divider='blue')
 
 # On load, read in sales data
 df_sales = pd.read_csv(
@@ -140,9 +140,9 @@ fig.update_layout(
         ticksuffix=' / SF'
     ))
 
-# Call the plotly_chart method to show the choropleth map in the application
-st.plotly_chart(
-    fig,
-    use_container_width=True,
-    config={'displayModeBar': False}
-)
+# # Call the plotly_chart method to show the choropleth map in the application
+# st.plotly_chart(
+#     fig,
+#     use_container_width=True,
+#     config={'displayModeBar': False}
+# )
